@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>odom_fusion</name>
+  <version>0.0.0</version>
+  <description>The odom_fusion package</description>
+
+  <maintainer email="daun@sim.tu-darmstadt.de">Kevin Daun</maintainer>
+  <author email="daun@sim.tu-darmstadt.de">Kevin Daun</author>
+  <license>MIT</license>
+  <url type="website">https://git.sim.informatik.tu-darmstadt.de/hector/odom_fusion</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>nav_msgs</depend>
+  <depend>rosbag</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_eigen</depend>
+  <depend>tf2_ros</depend>
+  <depend>urdf</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

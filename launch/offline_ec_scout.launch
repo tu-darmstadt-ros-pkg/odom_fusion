@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find odom_fusion)/config/ec_scout.yaml" />
+    <rosparam command="load" file="$(find odom_fusion)/config/offline_ec_scout.yaml" />
+    <node pkg="odom_fusion" type="offline_node" name="odom_fusion_offline_node" args="$(arg bag_file) $(arg urdf_file)"  output="screen" respawn="false">
+    </node>
+</launch>
+
+

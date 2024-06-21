@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find odom_fusion)/config/ec_scout.yaml" />
+    <node pkg="odom_fusion" type="node" name="odom_fusion_node" output="screen" respawn="false">
+        <remap from="odom_fused" to="/odom"/>
+        <remap from="imu/data" to="/imu/xsens/data"/>
+    </node>
+</launch>
+
+
+

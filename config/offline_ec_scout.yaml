@@ -1,0 +1,10 @@
+# General
+odom_fusion/logging_filename: "scout.csv"
+odom_fusion/log_downsampling: 5
+odom_fusion/print_downsampling: 5000
+odom_fusion/base_link_frame: "base_link"
+odom_fusion/offline_imu_topic: "/imu/xsens/data"
+odom_fusion/offline_odom_raw_topic: "/odom_raw"
+odom_fusion/offline_reference_topic: "/qualisys/qualisys_scout/odom"
+odom_fusion/use_reference_orientation: True
+
